@@ -1,0 +1,10 @@
+D:\Project\SetupYukKasirPOS\SetupYukKasirPOS\bin\Debug\SetupYukKasirPOS.msi
+D:\Project\SetupYukKasirPOS\SetupYukKasirPOS\bin\Debug\SetupYukKasirPOS.wixpdb
+obj\Debug\Directories.wixobj
+obj\Debug\File.wixobj
+obj\Debug\Product.wixobj
+obj\Debug\Shortcut.wixobj
+obj\Debug\SetupYukKasirPOS.wixproj.BindContentsFileListnull.txt
+obj\Debug\SetupYukKasirPOS.wixproj.BindOutputsFileListnull.txt
+obj\Debug\SetupYukKasirPOS.wixproj.BindBuiltOutputsFileListnull.txt
+obj\Debug\Registry.wixobj

@@ -1,0 +1,2 @@
+D:\Project\SetupYukKasirPOS\SetupYukKasirPOSBootstrapper\bin\Debug\SetupYukKasirPOSBootstrapper.exe
+D:\Project\SetupYukKasirPOS\SetupYukKasirPOSBootstrapper\bin\Debug\SetupYukKasirPOSBootstrapper.wixpdb

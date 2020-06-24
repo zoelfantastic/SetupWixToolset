@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:bal="http://schemas.microsoft.com/wix/BalExtension">
+  <?include "RelativePath.wxi" ?>
+	<Bundle Name="SetupYukKasirPOSBootstrapper" Version="1.0.0.0" Manufacturer="zoelfantastic" UpgradeCode="0039e77e-e667-4b0a-ac8c-5a8eaf5c7079">
+    <BootstrapperApplicationRef Id="WixStandardBootstrapperApplication.RtfLicense" >
+      <bal:WixStandardBootstrapperApplication LicenseUrl="" LogoFile="$(var.SourceDir)\logo.png" ShowVersion="yes" />
+    </BootstrapperApplicationRef>
+
+		<Chain>
+			<!-- TODO: Define the list of chained packages. -->
+			<!-- <MsiPackage SourceFile="path\to\your.msi" /> -->
+      <PackageGroupRef Id="NetFx461FullRedist"/>
+      <PackageGroupRef Id="VCRedist"/>
+      <PackageGroupRef Id="YukKasirPOSFull"/>
+		</Chain>
+	</Bundle>
+</Wix>

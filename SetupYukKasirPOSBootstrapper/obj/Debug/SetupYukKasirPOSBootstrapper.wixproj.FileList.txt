@@ -1,0 +1,7 @@
+obj\Debug\Bundle.wixobj
+obj\Debug\Packages.wixobj
+D:\Project\SetupYukKasirPOS\SetupYukKasirPOSBootstrapper\bin\Debug\SetupYukKasirPOSBootstrapper.exe
+D:\Project\SetupYukKasirPOS\SetupYukKasirPOSBootstrapper\bin\Debug\SetupYukKasirPOSBootstrapper.wixpdb
+obj\Debug\SetupYukKasirPOSBootstrapper.wixproj.BindContentsFileList.txt
+obj\Debug\SetupYukKasirPOSBootstrapper.wixproj.BindOutputsFileList.txt
+obj\Debug\SetupYukKasirPOSBootstrapper.wixproj.BindBuiltOutputsFileList.txt

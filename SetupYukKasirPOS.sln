@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "SetupYukKasirPOS", "SetupYukKasirPOS\SetupYukKasirPOS.wixproj", "{70DE2EBA-8C05-4A75-8B24-96D9FE30BC47}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "SetupYukKasirPOSBootstrapper", "SetupYukKasirPOSBootstrapper\SetupYukKasirPOSBootstrapper.wixproj", "{0039E77E-E667-4B0A-AC8C-5A8EAF5C7079}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70DE2EBA-8C05-4A75-8B24-96D9FE30BC47}.Debug|x86.ActiveCfg = Debug|x86
+		{70DE2EBA-8C05-4A75-8B24-96D9FE30BC47}.Debug|x86.Build.0 = Debug|x86
+		{70DE2EBA-8C05-4A75-8B24-96D9FE30BC47}.Release|x86.ActiveCfg = Release|x86
+		{70DE2EBA-8C05-4A75-8B24-96D9FE30BC47}.Release|x86.Build.0 = Release|x86
+		{0039E77E-E667-4B0A-AC8C-5A8EAF5C7079}.Debug|x86.ActiveCfg = Debug|x86
+		{0039E77E-E667-4B0A-AC8C-5A8EAF5C7079}.Debug|x86.Build.0 = Debug|x86
+		{0039E77E-E667-4B0A-AC8C-5A8EAF5C7079}.Release|x86.ActiveCfg = Release|x86
+		{0039E77E-E667-4B0A-AC8C-5A8EAF5C7079}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

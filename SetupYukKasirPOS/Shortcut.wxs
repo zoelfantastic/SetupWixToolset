@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Fragment>
+		<!-- TODO: Put your code here. -->
+    <ComponentGroup Id="AppShortcuts">
+      <Component Id="POSShortcut" Guid="*" Directory="ApplicationProgramsFolder">
+        <Shortcut Id="POSStartMenuShortcut" Name="Yuk Kasir POS" Description="Aplikasi Yuk Kasir POS" Target="[#YukKasirPOS.exe]" WorkingDirectory="INSTALLFOLDER" />
+        <Shortcut Id="UninstallProduct" Name="Uninstall Wiyata Bhakti" Description="Uninstalls Wiyata Bhakti" Target="[SystemFolder]msiexec.exe" Arguments="/x [ProductCode]" />
+        <RemoveFolder Id="CleanUpShortcut" Directory="ApplicationProgramsFolder" On="uninstall" />
+        <RegistryValue Root="HKCU" Key="Software\YukKasirPOS" Name="installed_startmenu" Type="integer" Value="1" KeyPath="yes" />
+      </Component>
+      <Component Id="DesktopShortcut" Guid="*" Directory="DesktopFolder">
+        <Shortcut Id="POSDesktopShortcut" Name="Yuk Kasir POS" Description="Aplikasi Yuk Kasir POS" Target="[#YukKasirPOS.exe]" WorkingDirectory="INSTALLFOLDER" />
+        <RemoveFile Id="RemovePosPOSDesktopShortcut" Name="Yuk Kasir POS.lnk" On="uninstall"/>
+        <RegistryValue Root="HKCU" Key="Software\YukKasirPOS" Name="installed_dekstop" Type="integer" Value="1" KeyPath="yes" />
+      </Component>
+    </ComponentGroup>
+	</Fragment>
+</Wix>

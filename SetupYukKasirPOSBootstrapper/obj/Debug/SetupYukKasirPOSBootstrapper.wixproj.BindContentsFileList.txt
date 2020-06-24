@@ -1,0 +1,4 @@
+D:\Installer_jadi\NDP461-KB3102436-x86-x64-AllOS-ENU.exe
+D:\Installer_jadi\vcredist_x86.exe
+D:\Installer_jadi\vcredist_x64.exe
+D:\Installer_jadi\SetupYukKasirPOS.msi

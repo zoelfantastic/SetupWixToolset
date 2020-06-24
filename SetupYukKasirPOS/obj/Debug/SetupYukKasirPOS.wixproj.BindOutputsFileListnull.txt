@@ -1,0 +1,2 @@
+D:\Project\SetupYukKasirPOS\SetupYukKasirPOS\bin\Debug\SetupYukKasirPOS.msi
+D:\Project\SetupYukKasirPOS\SetupYukKasirPOS\bin\Debug\SetupYukKasirPOS.wixpdb

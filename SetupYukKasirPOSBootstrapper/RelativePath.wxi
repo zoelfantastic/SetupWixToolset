@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+	<!-- TODO: Put your code here. -->
+  <?define NetFx461Release = 461308 ?>
+  <?define SourceDir="D:\Installer_jadi"?>
+</Include>

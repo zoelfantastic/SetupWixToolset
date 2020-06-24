@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Fragment>
+    <!-- Binaries -->
+    <ComponentGroup Id="AppFiles" Directory="INSTALLFOLDER">
+      <Component Id="CrashReporter.NET.dll" Guid="*">
+        <File Id="CrashReporter.NET.dll" KeyPath="yes" Source="D:\Installer\CrashReporter.NET.dll" />
+      </Component>
+      <Component Id="Dapper.Contrib.dll" Guid="*">
+        <File Id="Dapper.Contrib.dll" KeyPath="yes" Source="D:\Installer\Dapper.Contrib.dll" />
+      </Component>
+      <Component Id="Dapper.dll" Guid="*">
+        <File Id="Dapper.dll" KeyPath="yes" Source="D:\Installer\Dapper.dll" />
+      </Component>
+      <Component Id="FluentValidation.dll" Guid="*">
+        <File Id="FluentValidation.dll" KeyPath="yes" Source="D:\Installer\FluentValidation.dll" />
+      </Component>
+      <Component Id="LiveCharts.dll" Guid="*">
+        <File Id="LiveCharts.dll" KeyPath="yes" Source="D:\Installer\LiveCharts.dll" />
+      </Component>
+      <Component Id="LiveCharts.WinForms.dll" Guid="*">
+        <File Id="LiveCharts.WinForms.dll" KeyPath="yes" Source="D:\Installer\LiveCharts.WinForms.dll" />
+      </Component>
+      <Component Id="LiveCharts.Wpf.dll" Guid="*">
+        <File Id="LiveCharts.Wpf.dll" KeyPath="yes" Source="D:\Installer\LiveCharts.Wpf.dll" />
+      </Component>
+      <Component Id="log4net.dll" Guid="*">
+        <File Id="log4net.dll" KeyPath="yes" Source="D:\Installer\log4net.dll" />
+      </Component>
+      <Component Id="MetroFramework.Design.dll" Guid="*">
+        <File Id="MetroFramework.Design.dll" KeyPath="yes" Source="D:\Installer\MetroFramework.Design.dll" />
+      </Component>
+      <Component Id="MetroFramework.dll" Guid="*">
+        <File Id="MetroFramework.dll" KeyPath="yes" Source="D:\Installer\MetroFramework.dll" />
+      </Component>
+      <Component Id="MetroFramework.Fonts.dll" Guid="*">
+        <File Id="MetroFramework.Fonts.dll" KeyPath="yes" Source="D:\Installer\MetroFramework.Fonts.dll" />
+      </Component>
+      <Component Id="Microsoft.Bcl.AsyncInterfaces.dll" Guid="*">
+        <File Id="Microsoft.Bcl.AsyncInterfaces.dll" KeyPath="yes" Source="D:\Installer\Microsoft.Bcl.AsyncInterfaces.dll" />
+      </Component>
+      <Component Id="Microsoft.ReportViewer.Common.dll" Guid="*">
+        <File Id="Microsoft.ReportViewer.Common.dll" KeyPath="yes" Source="D:\Installer\Microsoft.ReportViewer.Common.dll" />
+      </Component>
+      <Component Id="Microsoft.ReportViewer.DataVisualization.DLL" Guid="*">
+        <File Id="Microsoft.ReportViewer.DataVisualization.DLL" KeyPath="yes" Source="D:\Installer\Microsoft.ReportViewer.DataVisualization.DLL" />
+      </Component>
+      <Component Id="Microsoft.ReportViewer.Design.DLL" Guid="*">
+        <File Id="Microsoft.ReportViewer.Design.DLL" KeyPath="yes" Source="D:\Installer\Microsoft.ReportViewer.Design.DLL" />
+      </Component>
+      <Component Id="Microsoft.ReportViewer.ProcessingObjectModel.DLL" Guid="*">
+        <File Id="Microsoft.ReportViewer.ProcessingObjectModel.DLL" KeyPath="yes" Source="D:\Installer\Microsoft.ReportViewer.ProcessingObjectModel.DLL" />
+      </Component>
+      <Component Id="Microsoft.ReportViewer.WebDesign.DLL" Guid="*">
+        <File Id="Microsoft.ReportViewer.WebDesign.DLL" KeyPath="yes" Source="D:\Installer\Microsoft.ReportViewer.WebDesign.DLL" />
+      </Component>
+      <Component Id="Microsoft.ReportViewer.WebForms.DLL" Guid="*">
+        <File Id="Microsoft.ReportViewer.WebForms.DLL" KeyPath="yes" Source="D:\Installer\Microsoft.ReportViewer.WebForms.DLL" />
+      </Component>
+      <Component Id="Microsoft.ReportViewer.WinForms.DLL" Guid="*">
+        <File Id="Microsoft.ReportViewer.WinForms.DLL" KeyPath="yes" Source="D:\Installer\Microsoft.ReportViewer.WinForms.DLL" />
+      </Component>
+      <Component Id="Microsoft.SqlServer.Types.dll" Guid="*">
+        <File Id="Microsoft.SqlServer.Types.dll" KeyPath="yes" Source="D:\Installer\Microsoft.SqlServer.Types.dll" />
+      </Component>
+      <Component Id="Newtonsoft.Json.dll" Guid="*">
+        <File Id="Newtonsoft.Json.dll" KeyPath="yes" Source="D:\Installer\Newtonsoft.Json.dll" />
+      </Component>
+      <Component Id="Npgsql.dll" Guid="*">
+        <File Id="Npgsql.dll" KeyPath="yes" Source="D:\Installer\Npgsql.dll" />
+      </Component>
+      <Component Id="System.Buffers.dll" Guid="*">
+        <File Id="System.Buffers.dll" KeyPath="yes" Source="D:\Installer\System.Buffers.dll" />
+      </Component>
+      <Component Id="System.Memory.dll" Guid="*">
+        <File Id="System.Memory.dll" KeyPath="yes" Source="D:\Installer\System.Memory.dll" />
+      </Component>
+      <Component Id="System.Numerics.Vectors.dll" Guid="*">
+        <File Id="System.Numerics.Vectors.dll" KeyPath="yes" Source="D:\Installer\System.Numerics.Vectors.dll" />
+      </Component>
+      <Component Id="System.Runtime.CompilerServices.Unsafe.dll" Guid="*">
+        <File Id="System.Runtime.CompilerServices.Unsafe.dll" KeyPath="yes" Source="D:\Installer\System.Runtime.CompilerServices.Unsafe.dll" />
+      </Component>
+      <Component Id="System.Text.Encodings.Web.dll" Guid="*">
+        <File Id="System.Text.Encodings.Web.dll" KeyPath="yes" Source="D:\Installer\System.Text.Encodings.Web.dll" />
+      </Component>
+      <Component Id="System.Text.Json.dll" Guid="*">
+        <File Id="System.Text.Json.dll" KeyPath="yes" Source="D:\Installer\System.Text.Json.dll" />
+      </Component>
+      <Component Id="System.Threading.Tasks.Extensions.dll" Guid="*">
+        <File Id="System.Threading.Tasks.Extensions.dll" KeyPath="yes" Source="D:\Installer\System.Threading.Tasks.Extensions.dll" />
+      </Component>
+      <Component Id="System.ValueTuple.dll" Guid="*">
+        <File Id="System.ValueTuple.dll" KeyPath="yes" Source="D:\Installer\System.ValueTuple.dll" />
+      </Component>
+      <Component Id="WaitCursor.dll" Guid="*">
+        <File Id="WaitCursor.dll" KeyPath="yes" Source="D:\Installer\WaitCursor.dll" />
+      </Component>
+      <Component Id="WeifenLuo.WinFormsUI.Docking.dll" Guid="*">
+        <File Id="WeifenLuo.WinFormsUI.Docking.dll" KeyPath="yes" Source="D:\Installer\WeifenLuo.WinFormsUI.Docking.dll" />
+      </Component>
+      <Component Id="YukKasirPOS.Bll.Api.dll" Guid="*">
+        <File Id="YukKasirPOS.Bll.Api.dll" KeyPath="yes" Source="D:\Installer\YukKasirPOS.Bll.Api.dll" />
+      </Component>
+      <Component Id="YukKasirPOS.Bll.Service.dll" Guid="*">
+        <File Id="YukKasirPOS.Bll.Service.dll" KeyPath="yes" Source="D:\Installer\YukKasirPOS.Bll.Service.dll" />
+      </Component>
+      <Component Id="YukKasirPOS.exe" Guid="*">
+        <File Id="YukKasirPOS.exe" KeyPath="yes" Source="D:\Installer\YukKasirPOS.exe" />
+      </Component>
+      <Component Id="YukKasirPOS.exe.config" Guid="*">
+        <File Id="YukKasirPOS.exe.config" KeyPath="yes" Source="D:\Installer\YukKasirPOS.exe.config" />
+      </Component>
+      <Component Id="YukKasirPOS.Helper.dll" Guid="*">
+        <File Id="YukKasirPOS.Helper.dll" KeyPath="yes" Source="D:\Installer\YukKasirPOS.Helper.dll" />
+      </Component>
+      <Component Id="YukKasirPOS.Model.dll" Guid="*">
+        <File Id="YukKasirPOS.Model.dll" KeyPath="yes" Source="D:\Installer\YukKasirPOS.Model.dll" />
+      </Component>
+      <Component Id="YukKasirPOS.Report.dll" Guid="*">
+        <File Id="YukKasirPOS.Report.dll" KeyPath="yes" Source="D:\Installer\YukKasirPOS.Report.dll" />
+      </Component>
+      <Component Id="YukKasirPOS.Repository.API.dll" Guid="*">
+        <File Id="YukKasirPOS.Repository.API.dll" KeyPath="yes" Source="D:\Installer\YukKasirPOS.Repository.API.dll" />
+      </Component>
+      <Component Id="YukKasirPOS.Repository.Service.dll" Guid="*">
+        <File Id="YukKasirPOS.Repository.Service.dll" KeyPath="yes" Source="D:\Installer\YukKasirPOS.Repository.Service.dll" />
+      </Component>
+      <Component Id="YukKasirPOS.vshost.exe" Guid="*">
+        <File Id="YukKasirPOS.vshost.exe" KeyPath="yes" Source="D:\Installer\YukKasirPOS.vshost.exe" />
+      </Component>
+      <Component Id="YukKasirPOS.vshost.exe.config" Guid="*">
+        <File Id="YukKasirPOS.vshost.exe.config" KeyPath="yes" Source="D:\Installer\YukKasirPOS.vshost.exe.config" />
+      </Component>
+      <Component Id="YukKasirPOS.vshost.exe.manifest" Guid="*">
+        <File Id="YukKasirPOS.vshost.exe.manifest" KeyPath="yes" Source="D:\Installer\YukKasirPOS.vshost.exe.manifest" />
+      </Component>
+      <Component Id="Zen.Barcode.Core.dll" Guid="*">
+        <File Id="Zen.Barcode.Core.dll" KeyPath="yes" Source="D:\Installer\Zen.Barcode.Core.dll" />
+      </Component>           
+    </ComponentGroup>
+  </Fragment>
+</Wix>

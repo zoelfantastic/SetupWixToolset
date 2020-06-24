@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension">
+  <?include "RelativePath.wxi" ?>
+	<Product Id="*" Name="SetupYukKasirPOS" Language="1033" Version="1.0.0.0" Manufacturer="Mohammad Agus Zulfi" UpgradeCode="fa224b7e-de83-4571-b3f8-7eb1c6f0cd9b">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+    <Media Id="1" Cabinet="app.cab" EmbedCab="yes" />
+    <!-- Properties -->
+    <PropertyRef Id="WIX_IS_NETFRAMEWORK_461_OR_LATER_INSTALLED" />
+    <WixVariable Id="WixUILicenseRtf" Value="$(var.SourceDir)\license.rtf" />
+    
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+    <!-- Install Conditions -->
+    <Condition Message="This application requires .NET Framework 4.6.1 or higher Please install the .NET Framework then run this installer again.">
+      <![CDATA[Installed OR WIX_IS_NETFRAMEWORK_461_OR_LATER_INSTALLED]]>
+    </Condition>
+
+		<Feature Id="ProductFeature" Title="Yuk Kasir POS Installer" Level="1">
+			<ComponentGroupRef Id="AppFiles" />
+      <ComponentGroupRef Id="AppShortcuts" />
+		</Feature>
+
+    <!-- UI -->
+    <UI>
+      <UIRef Id="WixUI_Minimal" />
+    </UI>
+	</Product>
+</Wix>
